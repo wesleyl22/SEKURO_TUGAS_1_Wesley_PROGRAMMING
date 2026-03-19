@@ -1,13 +1,45 @@
 
 # SEKURO 25 Tugas 1 Divisi Programming
 
-> Tenggat Waktu : **Jumat, 21 Maret pukul 23.59 WIB**
+> Tenggat Waktu : **Rabu, 25 Maret pukul 23.59 WIB**
+
+> Revisi: **Rabu, 18 Maret pukul 13.50 WIB**
+
+
+### *[REVISI] :*
+1. Perubahan Status Soal OOP:
+
+    Soal No. 2 OOP kini dialihkan menjadi Soal Bonus. Pengerjaan bersifat opsional; jika dikerjakan, akan menjadi nilai tambah.
+
+    Terdapat 1 Soal Wajib yang berkaitan dengan OOP yang menjadi soal alternatif bagi soal No. 1 OOP. Bagi Cakru yang sudah mengerjakan soal No. 1 OOP sebelum revisi ini, tidak perlu mengerjakan soal alternatif tersebut.
+
+2. Ketentuan Struktur Folder & Penamaan:
+
+    Bagi praktikan yang menggunakan fitur "Use this template" (bukan melakukan Forking), wajib mengubah nama folder/file soal no. 2 sebelumnya menjadi soal_2_bonus.
+
+3. Update Repository (Khusus yang melakukan Fork):
+Bagi Cakru yang melakukan Forking pada repository utama, silakan gunakan perintah Git berikut untuk melakukan sinkronisasi dan mengambil soal wajib terbaru:
+
+```bash
+# Menambahkan remote original (jika belum ada)
+git remote add upstream [URL_REPO_UTAMA]
+
+# Mengambil data terbaru dari upstream
+git fetch upstream
+
+# Melakukan merge ke branch utama kalian
+git checkout main
+git merge upstream/main
+
+# Push kembali ke repository fork kalian
+git push origin main
+```
 
 ### *[PERINGATAN]*
 - Silahkan klik "Use This Template" pada repo ini, lalu buatlah repository baru dengan format SEKURO_TUGAS_1_{Nama}_PROGRAMMING. Selain itu, Cakru *WAJIB* mengubah repository visibility menjadi public agar dapat dinilai. Pengumpulan repository yang private tidak akan diberikan nilai.
 - Soal-soal berikut ini dapat diakses pada folder `soal`. Untuk pengumpulan, masukkan jawaban ke folder `src`. Berikut adalah contoh format cara menyimpan jawaban:
 
-![alt text](bin/contoh.png)
+    ![alt text](bin/contoh.png)
 
 ## ROS 2
 Tugas ini akan mengevaluasi semua pengetahuan Cakru mengenai materi yang kalian pelajari pada Day 1 SEKURO 18 mengenai ROS 2. Penggunaan AI diperbolehkan, tetapi kami berharap Cakru tidak menggunakan AI secara penuh dalam mengerjakan tugas ini dan memanfaatkan materi yang telah diberikan agar Cakru benar-benar memahaminya.
@@ -61,14 +93,19 @@ OUTPUT:
 ![alt text](bin/outputcpp2.png)
 
 ## OOP
-
 1) Lengkapilah file [core_mcu.cpp](src/soal_1_oop/core_mcu.cpp) serta [core_mcu.hpp](src/soal_1_oop/core_mcu.hpp) yang terdapat pada folder `soal`. Implementasikan kelas Core_MCU yang terdapat pada file-file tersebut agar `main.cpp` dapat dijalankan dengan output yang tertera di bawah ini! 
 
-![alt text](bin/no1_oop.png)
+![alt text](bin/no_1_oop.png)
 
 *[TIPS]*: Pelajarilah cara menggunakan konstruktor dan destruktor. Untuk soal ini, Cakru dapat untuk meng-compile program menggunakan g++ untuk mendapatkan outputnya.
 
-2) Lengkapi dan implementasikan file-file berikut agar `main.cpp` dapat dijalankan dan menghasilkan output seperti pada gambar di bawah ini. Gunakanlah prinsip-prinsip inheritance, virtualization, serta static. 
+1) *[ALTERNATIF]* Lengkapilah file [mobil.cpp](src/soal_1_oop_alternatif/mobil.cpp) yang terdapat pada folder `soal`. Implementasikan class `mobil` dan class `mobil_sports` agar `main.cpp` dapat dijalankan dengan output yang tertera di bawah ini!
+
+![alt text](bin/no_1_oop_alternatif.png)
+
+*[TIPS]*: Pelajarilah cara inheritance dan override. Untuk soal ini, Cakru dapat meng-compile program menggunakan g++ untuk mendapatkan outputnya.
+
+2) *[BONUS]* Lengkapi dan implementasikan file-file berikut agar `main.cpp` dapat dijalankan dan menghasilkan output seperti pada gambar di bawah ini. Gunakanlah prinsip-prinsip inheritance, virtualization, serta static. 
 - [mcu.cpp](src/soal_2_oop/mcu.cpp)
 - [mcu.hpp](src/soal_2_oop/mcu.cpp)
 - [mcu_walker.cpp](src/soal_2_oop/mcu_walker.cpp)
@@ -78,7 +115,7 @@ OUTPUT:
 *[PERINGATAN]* [main.cpp](src/soal_2_oop/main.cpp) dilarang untuk diubah dihapus ataupun diedit.
 
 Berikut output yang diharapkan:
-![alt text](bin/no2_oop.png)
+![alt text](bin/no_2_bonus_oop.png)
 
 ## CMAKE
 - Modifikasilah struktur folder pada soal nomor 2 bagian OOP berikut [soal_2_oop](soal/soal_2_oop/) dengan menyalin seluruh file terkait ke dalam direktori folder jawaban Anda lalu atur strukturnya sesuai dengan gambar di bawah ini: 

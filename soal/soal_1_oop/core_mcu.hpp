@@ -2,7 +2,7 @@
 #include "bits/stdc++.h"
 using namespace std;
 
-/*[TODO]: Implementasikanlah class berikut didalam file robot.cpp agar main.cpp dapat dijalankan */
+/*[TODO]: Implementasikanlah class berikut didalam file core_mcu.cpp agar main.cpp dapat dijalankan */
 class Core_MCU{
 private:
     //[TODO]: Buatlah atribute atribute dalam class ini
