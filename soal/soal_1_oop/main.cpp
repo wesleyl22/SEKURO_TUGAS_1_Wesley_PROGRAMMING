@@ -1,5 +1,5 @@
 #include "core_mcu.hpp"
-
+using namespace std;
 int main(){
     Core_MCU *device1 = new Core_MCU(1.4,512,"ubuntu 22.04","Raspberry Pi",5);
     Core_MCU *device2 = new Core_MCU(4.6,16512,"windows_11","intel_nuc",5);

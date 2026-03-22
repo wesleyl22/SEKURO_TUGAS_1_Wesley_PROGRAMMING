@@ -1,4 +1,5 @@
 #include "mcu.hpp"
+using namespace std;
 // [TODO] : Implementasikan class robot di file cpp ini
 // [TIPS] : Gunakan MCU::<nama methode> untuk mendefinisikan class-nya
 void MCU::showSpek() {

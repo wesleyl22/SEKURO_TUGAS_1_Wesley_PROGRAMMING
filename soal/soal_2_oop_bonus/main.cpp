@@ -2,7 +2,7 @@
 #include "mcu_cam_controller.hpp"
 #include "mcu_walker.hpp"
 #include "mcu.hpp"
-
+using namespace std;
 int main() {
     cout << "--- Inisialisasi Sistem MCU ---" << endl;
     mcu_cam_controller* cam1 = new mcu_cam_controller(2.4, 1024, "Linux Embedded", "Cam-X1", 5, "Person");

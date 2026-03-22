@@ -3,7 +3,7 @@
 
 > Tenggat Waktu : **Rabu, 25 Maret pukul 23.59 WIB**
 
-> Revisi: **Rabu, 18 Maret pukul 13.50 WIB**
+> Revisi: **Rabu, 21 Maret pukul 12.43 WIB**
 
 
 ### *[REVISI] :*
@@ -118,10 +118,9 @@ Berikut output yang diharapkan:
 ![alt text](bin/no_2_bonus_oop.png)
 
 ## CMAKE
-- Modifikasilah struktur folder pada soal nomor 2 bagian OOP berikut [soal_2_oop](soal/soal_2_oop/) dengan menyalin seluruh file terkait ke dalam direktori folder jawaban Anda lalu atur strukturnya sesuai dengan gambar di bawah ini: 
+- Modifikasilah struktur folder pada soal `cmake` berikut [soal_cmake](soal/soal_cmake/) dengan menyalin seluruh file terkait ke dalam direktori folder jawaban Anda lalu atur strukturnya sesuai dengan gambar di bawah ini: 
 
 ![alt text](bin/no_cmake.png)
-
 Selanjutnya, lengkapi file [CMakeLists.txt](soal/soal_cmake/CMakeLists.txt) yang tersedia. Pastikan konfigurasi CMake dapat menghasilkan file eksekusi (.exe) di dalam folder ***bin*** setelah proses build selesai.
 
 

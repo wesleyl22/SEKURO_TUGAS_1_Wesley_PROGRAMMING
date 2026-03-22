@@ -1,5 +1,7 @@
 #pragma once
 #include "bits/stdc++.h"
+#include "iostream"
+using namespace std;
 
 /*[TODO]: Implementasikanlah class berikut didalam file mobil.cpp agar main.cpp dapat dijalankan */
 class mobil {
