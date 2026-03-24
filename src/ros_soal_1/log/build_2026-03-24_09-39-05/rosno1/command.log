@@ -1,0 +1,2 @@
+Invoking command in '/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/build/rosno1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/src/rosno1 -DCMAKE_INSTALL_PREFIX=/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1
+Invoked command in '/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/build/rosno1' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/src/rosno1 -DCMAKE_INSTALL_PREFIX=/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1

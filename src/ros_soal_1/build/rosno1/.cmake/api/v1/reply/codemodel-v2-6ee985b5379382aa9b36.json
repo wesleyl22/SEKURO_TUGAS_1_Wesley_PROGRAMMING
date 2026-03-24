@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4b852ad132275a8e0dcf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rosno1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cam::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cam-1c5e202ce6ac5502d89e.json",
+					"name" : "cam",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosno1_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosno1_uninstall-71eb5ab772beafd55ff2.json",
+					"name" : "rosno1_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-aec6a43fd5358642bc49.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "walker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-walker-76d623798d169e8aa16d.json",
+					"name" : "walker",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/build/rosno1",
+		"source" : "/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/src/rosno1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

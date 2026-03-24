@@ -1,0 +1,17 @@
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/lib/rosno1/cam
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/lib/rosno1/walker
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/share/ament_index/resource_index/package_run_dependencies/rosno1
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/share/ament_index/resource_index/parent_prefix_path/rosno1
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/share/rosno1/environment/ament_prefix_path.sh
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/share/rosno1/environment/ament_prefix_path.dsv
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/share/rosno1/environment/path.sh
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/share/rosno1/environment/path.dsv
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/share/rosno1/local_setup.bash
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/share/rosno1/local_setup.sh
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/share/rosno1/local_setup.zsh
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/share/rosno1/local_setup.dsv
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/share/rosno1/package.dsv
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/share/ament_index/resource_index/packages/rosno1
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/share/rosno1/cmake/rosno1Config.cmake
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/share/rosno1/cmake/rosno1Config-version.cmake
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/install/rosno1/share/rosno1/package.xml

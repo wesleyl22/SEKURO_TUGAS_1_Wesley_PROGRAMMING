@@ -1,0 +1,11 @@
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/build/rosno1/CMakeFiles/uninstall.dir
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/build/rosno1/CMakeFiles/rosno1_uninstall.dir
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/build/rosno1/CMakeFiles/cam.dir
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/build/rosno1/CMakeFiles/walker.dir
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/build/rosno1/CMakeFiles/test.dir
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/build/rosno1/CMakeFiles/edit_cache.dir
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/build/rosno1/CMakeFiles/rebuild_cache.dir
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/build/rosno1/CMakeFiles/list_install_components.dir
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/build/rosno1/CMakeFiles/install.dir
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/build/rosno1/CMakeFiles/install/local.dir
+/home/wes22/Sekuro 18 - Tugas 1/src/ros_soal_1/build/rosno1/CMakeFiles/install/strip.dir
