@@ -1,0 +1,3 @@
+/Users/wesley/URO/TUGAS 1/src/cmake/build/CMakeFiles/robot_app.dir
+/Users/wesley/URO/TUGAS 1/src/cmake/build/CMakeFiles/edit_cache.dir
+/Users/wesley/URO/TUGAS 1/src/cmake/build/CMakeFiles/rebuild_cache.dir
