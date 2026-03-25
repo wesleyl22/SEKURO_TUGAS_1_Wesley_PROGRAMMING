@@ -1,0 +1,2413 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Little Snitch.app/Contents/Components/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+    searched_directories:
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Darwin - 25.3.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Little Snitch.app/Contents/Components/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+    searched_directories:
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/gmake"
+      - "/opt/homebrew/bin/gmake"
+      - "/opt/homebrew/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/System/Cryptexes/App/usr/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/opt/pmk/env/global/bin/gmake"
+      - "/Library/Apple/usr/bin/gmake"
+      - "/Applications/Little Snitch.app/Contents/Components/gmake"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/gmake"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/make"
+      - "/opt/homebrew/bin/make"
+      - "/opt/homebrew/sbin/make"
+      - "/usr/local/bin/make"
+      - "/System/Cryptexes/App/usr/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-gcc-13 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-gcc-13 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-gcc-13 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-gcc-13 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-gcc-13 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-gcc-13 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-gcc-13 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-gcc-13 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-gcc-13 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-gcc-13 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-gcc-13 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-gcc-13 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Little Snitch.app/Contents/Components/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+    searched_directories:
+      - "/opt/homebrew/bin/ar"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/ar"
+      - "/opt/homebrew/sbin/ar"
+      - "/usr/local/bin/ar"
+      - "/System/Cryptexes/App/usr/bin/ar"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Little Snitch.app/Contents/Components/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+    searched_directories:
+      - "/opt/homebrew/bin/ranlib"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/ranlib"
+      - "/opt/homebrew/sbin/ranlib"
+      - "/usr/local/bin/ranlib"
+      - "/System/Cryptexes/App/usr/bin/ranlib"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Little Snitch.app/Contents/Components/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+    searched_directories:
+      - "/opt/homebrew/bin/strip"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/strip"
+      - "/opt/homebrew/sbin/strip"
+      - "/usr/local/bin/strip"
+      - "/System/Cryptexes/App/usr/bin/strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Little Snitch.app/Contents/Components/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+    searched_directories:
+      - "/opt/homebrew/bin/ld"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/ld"
+      - "/opt/homebrew/sbin/ld"
+      - "/usr/local/bin/ld"
+      - "/System/Cryptexes/App/usr/bin/ld"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Little Snitch.app/Contents/Components/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+    searched_directories:
+      - "/opt/homebrew/bin/nm"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/nm"
+      - "/opt/homebrew/sbin/nm"
+      - "/usr/local/bin/nm"
+      - "/System/Cryptexes/App/usr/bin/nm"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Little Snitch.app/Contents/Components/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+    searched_directories:
+      - "/opt/homebrew/bin/objdump"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/objdump"
+      - "/opt/homebrew/sbin/objdump"
+      - "/usr/local/bin/objdump"
+      - "/System/Cryptexes/App/usr/bin/objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Little Snitch.app/Contents/Components/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+    searched_directories:
+      - "/opt/homebrew/bin/objcopy"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/objcopy"
+      - "/opt/homebrew/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/System/Cryptexes/App/usr/bin/objcopy"
+      - "/usr/bin/objcopy"
+      - "/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+      - "/opt/pmk/env/global/bin/objcopy"
+      - "/Library/Apple/usr/bin/objcopy"
+      - "/Applications/Little Snitch.app/Contents/Components/objcopy"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Little Snitch.app/Contents/Components/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+    searched_directories:
+      - "/opt/homebrew/bin/readelf"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/readelf"
+      - "/opt/homebrew/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/System/Cryptexes/App/usr/bin/readelf"
+      - "/usr/bin/readelf"
+      - "/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+      - "/opt/pmk/env/global/bin/readelf"
+      - "/Library/Apple/usr/bin/readelf"
+      - "/Applications/Little Snitch.app/Contents/Components/readelf"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Little Snitch.app/Contents/Components/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+    searched_directories:
+      - "/opt/homebrew/bin/dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/opt/pmk/env/global/bin/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+      - "/Applications/Little Snitch.app/Contents/Components/dlltool"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Little Snitch.app/Contents/Components/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+    searched_directories:
+      - "/opt/homebrew/bin/addr2line"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/addr2line"
+      - "/opt/homebrew/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/System/Cryptexes/App/usr/bin/addr2line"
+      - "/usr/bin/addr2line"
+      - "/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+      - "/opt/pmk/env/global/bin/addr2line"
+      - "/Library/Apple/usr/bin/addr2line"
+      - "/Applications/Little Snitch.app/Contents/Components/addr2line"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Little Snitch.app/Contents/Components/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+    searched_directories:
+      - "/opt/homebrew/bin/tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/tapi"
+      - "/opt/homebrew/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/opt/pmk/env/global/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/Applications/Little Snitch.app/Contents/Components/tapi"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-g++-13 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-g++-13 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-g++-13 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-g++-13 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-g++-13 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-g++-13 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-g++-13 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-g++-13 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-g++-13 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-g++-13 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-g++-13 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-g++-13 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:76 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Little Snitch.app/Contents/Components/"
+      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
+    searched_directories:
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/opt/homebrew/sbin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Applications/Little Snitch.app/Contents/Components"
+        - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+...
